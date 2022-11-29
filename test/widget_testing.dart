@@ -12,17 +12,6 @@ void main() {
     await tester.pump();
     
     expect(find.text("Make widget test 1"), findsOneWidget);
-    // expect(textField, findsOneWidget);
-    // await tester.enterText(textField, 'Flutter Devs');
-    // expect(find.text('Flutter Devs'), findsOneWidget);
-    // print('Flutter Devs');
-    // var button = find.text("Reverse Text");
-    // expect(button,findsOneWidget);
-    // print('Reverse Text');
-    // await tester.tap(button);
-    // await tester.pump();
-    // expect(find.text("sveD rettulF"),findsOneWidget);
-    // print('sveD rettulF');
   });
 
   testWidgets("Password test",  (WidgetTester tester) async {
